@@ -26,18 +26,57 @@
             font-size: 24px;
             color: #333;
             margin: 0;
+            margin-bottom: 20px;
+        }
+        h1 + h1 {
+            margin-top: 80px;
         }
         p {
             font-size: 18px;
             color: #666;
             margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        .photo-frame {
+            border: 10px solid #ffd700;
+            padding: 10px;
+            margin-top: 40px; /* Adjust the value as needed for space above the photo */
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .media-container {
+            margin-top: 30px;
+        }
+        .media-container video {
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            max-width: 100%;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        
+        <h1>Mein Hu Gian, Teri gaand maar lunga</h1>
+        
+        <div class="photo-frame">
+            <img src="photo.jpg" alt="Photo" width="300">
+        </div>
         <h1>960 Gpay kar tab transfer karunga account</h1>
-        <p>Suraj teri randi 💅🥰</p>
+        <h1>Suraj teri Randi💅🥰</h1>
+        
+        <div class="media-container">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h1>AAja Beta Aaja</h1>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </div>
 </body>
 </html>
